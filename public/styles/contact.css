@@ -1,0 +1,41 @@
+.contact {
+  padding: 2rem 0;
+  padding-top: 10vh;
+}
+
+.contact__title {
+  font-size: 2.6rem;
+}
+
+.contact__article {
+  margin-top: 3rem;
+}
+
+.contact__article-paragraph {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-bottom: 2rem;
+}
+
+.contact__button {
+  text-decoration: none;
+}
+
+.contact__button button {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid var(--highlight);
+  border-radius: 4px;
+  font-size: 1.5rem;
+  color: var(--highlight);
+  padding: 1.2rem 2.2rem;
+  margin-top: 5rem;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.contact__button button:hover {
+  background-color: hsla(60, 100%, 50%, 0.15);
+}

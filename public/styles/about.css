@@ -1,0 +1,18 @@
+.about {
+  padding: 2rem 0;
+}
+
+.about__title {
+  font-size: 2.6rem;
+}
+
+.about__article {
+  margin-top: 3rem;
+}
+
+.about__article-paragraph {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-bottom: 2rem;
+}

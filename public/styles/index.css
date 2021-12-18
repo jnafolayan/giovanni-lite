@@ -1,0 +1,32 @@
+.index {
+  padding: 2rem 0;
+  padding-top: 10vh;
+}
+
+.index__hello {
+  font-size: 2.6rem;
+}
+
+.index__name {
+  color: var(--primary);
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Montserrat;
+}
+
+.index__name > span {
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: var(--primary);
+  margin-right: 1rem;
+}
+
+.index__desc {
+  text-align: left;
+  font-size: 1.8rem;
+  color: #ddd;
+  margin-top: 3rem;
+}
